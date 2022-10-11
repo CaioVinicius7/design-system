@@ -12,6 +12,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -24,8 +27,12 @@
     "@storybook/builder-vite": "^0.2.4",
     "@storybook/react": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
     "@vitejs/plugin-react": "^2.1.0",
     "babel-loader": "^8.2.5",
+    "eslint": "^8.25.0",
+    "eslint-plugin-import-helpers": "^1.2.1",
     "vite": "^3.1.7"
   }
 }
