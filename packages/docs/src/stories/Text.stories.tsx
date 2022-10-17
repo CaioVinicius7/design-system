@@ -16,5 +16,13 @@ export const CustomTag: StoryObj<TextProps> = {
   args: {
     children: "Strong Text",
     as: "strong"
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          "Por padrão Text sempre será um `p`, mas podemos alterar isso com a propriedade `as`."
+      }
+    }
   }
 };
