@@ -2,7 +2,7 @@ import { Box, Text, TextInput, TextInputProps } from "@ignite-ui/react";
 import type { StoryObj, Meta } from "@storybook/react";
 
 export default {
-  title: "Form/TextInput",
+  title: "Form/Text Input",
   component: TextInput,
   args: {},
   decorators: [
@@ -16,7 +16,7 @@ export default {
             gap: "$2"
           }}
         >
-          <Text size="sm"> Email Address</Text>
+          <Text size="sm">Email Address</Text>
           {Story()}
         </Box>
       );
