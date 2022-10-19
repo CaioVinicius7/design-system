@@ -7,6 +7,13 @@ export default {
   args: {
     src: "https://github.com/caiovinicius7.png",
     alt: "Caio Vinícius"
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: "text"
+      }
+    }
   }
 } as Meta<AvatarProps>;
 

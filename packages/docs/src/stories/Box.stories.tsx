@@ -6,15 +6,14 @@ export default {
   component: Box,
   args: {
     children: <Text>Box Element</Text>
-  }
-} as Meta<BoxProps>;
-
-export const Primary: StoryObj<BoxProps> = {
+  },
   argTypes: {
     children: {
-      table: {
-        disable: true
+      control: {
+        type: null
       }
     }
   }
-};
+} as Meta<BoxProps>;
+
+export const Primary: StoryObj<BoxProps> = {};
