@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@ignite-ui/eslint-config",
+    "@ignite-ui-caio/eslint-config",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended"
   ],
