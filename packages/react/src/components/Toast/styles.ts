@@ -12,11 +12,6 @@ const swipeOut = keyframes({
   to: { transform: `translateX(100%)` }
 });
 
-const hide = keyframes({
-  "0%": { opacity: 1 },
-  "100%": { opacity: 0 }
-});
-
 export const ToastRoot = styled(ToastPrimitive.Root, {
   fontFamily: "$default",
   background: "$gray800",
@@ -37,11 +32,11 @@ export const ToastRoot = styled(ToastPrimitive.Root, {
   },
 
   '&[data-state="open"]': {
-    animation: `${slideIn} 400ms`
+    animation: `${slideIn} 200ms`
   },
 
   '&[data-state="closed"]': {
-    animation: `${hide} 100ms ease-in`
+    opacity: 0
   },
   '&[data-swipe="move"]': {
     transform: "translateX(var(--radix-toast-swipe-move-x))"
