@@ -28,6 +28,8 @@ function ToastProvider({
   );
 }
 
+ToastProvider.displayName = "Toast.Provider";
+
 export interface ToastProps {
   title: string;
   description: string;
@@ -58,6 +60,8 @@ function ToastElement({
     </>
   );
 }
+
+ToastElement.displayName = "Toast.Element";
 
 export const Toast = {
   Provider: ToastProvider,
