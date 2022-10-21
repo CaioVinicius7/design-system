@@ -1,5 +1,11 @@
 # @ignite-ui-caio/react
 
+## 6.0.0
+
+### Major Changes
+
+- Add componente Tooltip
+
 ## 5.0.0
 
 ### Major Changes
