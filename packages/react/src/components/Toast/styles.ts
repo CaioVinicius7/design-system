@@ -2,6 +2,8 @@ import * as ToastPrimitive from "@radix-ui/react-toast";
 
 import { keyframes, styled } from "../../styles";
 
+export const Provider = styled(ToastPrimitive.Provider, {});
+
 const slideIn = keyframes({
   from: { transform: `translateX(100%)` },
   to: { transform: "translateX(0)" }

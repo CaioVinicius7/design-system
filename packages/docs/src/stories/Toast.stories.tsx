@@ -1,4 +1,4 @@
-import { Box, Text, Toast, ToastProps } from "@ignite-ui-caio/react";
+import { Toast, ToastProps } from "@ignite-ui-caio/react";
 import type { StoryObj, Meta } from "@storybook/react";
 
 export default {

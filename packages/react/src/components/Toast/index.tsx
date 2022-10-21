@@ -1,8 +1,8 @@
-import * as ToastPrimitive from "@radix-ui/react-toast";
 import { X } from "phosphor-react";
 import { Dispatch, ReactNode, SetStateAction } from "react";
 
 import {
+  Provider,
   ToastCloseButton,
   ToastDescription,
   ToastRoot,
@@ -22,12 +22,9 @@ function ToastProvider({
   duration
 }: ToastProviderProps) {
   return (
-    <ToastPrimitive.Provider
-      swipeDirection={swipeDirection}
-      duration={duration}
-    >
+    <Provider swipeDirection={swipeDirection} duration={duration}>
       {children}
-    </ToastPrimitive.Provider>
+    </Provider>
   );
 }
 
