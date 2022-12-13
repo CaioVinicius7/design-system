@@ -1,0 +1,2 @@
+import{A as t}from"./index.60ddb7b0.js";import"./index.1527821e.js";import"./iframe.28dc9e93.js";import"./index.b665443e.js";import"./jsx-runtime.1f68229b.js";const c={title:"Data Display/Avatar",component:t,args:{src:"https://github.com/caiovinicius7.png",alt:"Caio Vin\xEDcius"},argTypes:{src:{control:{type:"text"}}}},p={},m={args:{src:void 0}},n=["Primary","WithFallback"];export{p as Primary,m as WithFallback,n as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.30df6a90.js.map
